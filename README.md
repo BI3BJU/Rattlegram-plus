@@ -4,7 +4,7 @@ Rattlegram Plus
 [![API](https://img.shields.io/badge/API-21%2B-brightgreen)](https://developer.android.com/)
 [![Platform](https://img.shields.io/badge/Platform-Android-green)](https://www.android.com/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/BI3BJU/Text-Encryption-Tool-Java)]
-(https://github.com/BI3BJU/Rattlegram-plus)
+
 
 Rattlegram Plus 是一款利用音频调制/解调实现短距离文本通信的 Android 应用。它能将文本信息编码为可听或超声波音频信号，并通过麦克风接收解码，无需 Wi‑Fi、蓝牙或蜂窝网络即可实现点对点消息传递。
 
