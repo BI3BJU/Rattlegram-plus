@@ -1,0 +1,90 @@
+# Built application files
+*.apk
+*.ap_
+*.aab
+
+# Files for the ART/Dalvik VM
+*.dex
+
+# Java class files
+*.class
+
+# Generated files
+bin/
+gen/
+out/
+build/
+app/build/
+libs/
+
+# Gradle files
+.gradle/
+gradle/
+gradlew
+gradlew.bat
+local.properties
+gradle-wrapper.jar
+
+# Android Studio
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+.cxx/
+*.swp
+*.swo
+*~
+
+# NDK
+*.so
+!**/lib/**/*.so
+*.o
+*.a
+
+# Keystore files
+*.jks
+*.keystore
+*.key
+*.pem
+
+# Log files
+*.log
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Local configuration
+keystore.properties
+signing.properties
+google-services.json
+
+# Crashlytics
+com_crashlytics_export_strings.xml
+
+# Firebase
+google-services.json
+
+# Proguard
+proguard/
+dump.txt
+seeds.txt
+usage.txt
+mapping.txt
+
+# Build intermediates
+*.jar
+*.war
+*.ear
+
+# Test related
+test-output/
+coverage/
+
+# Captured screenshots
+screenshots/
+
+# Sensitive keys
+*.secret
+*.env
