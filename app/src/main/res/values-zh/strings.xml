@@ -1,0 +1,179 @@
+<resources>
+    <string name="app_name">Rattlegram plus</string>
+
+    <!-- 菜单类别 -->
+    <string name="decoder_settings">解码器设置</string>
+    <string name="encoder_settings">编码器设置</string>
+    <string name="danger_zone">危险区域</string>
+
+    <!-- 常用操作 -->
+    <string name="delete">删除</string>
+    <string name="delete_messages">删除消息</string>
+    <string name="delete_messages_prompt">您确定要永久删除所有消息吗？</string>
+    <string name="force_quit">强制退出</string>
+    <string name="force_quit_prompt">您确定要强制退出应用吗？</string>
+    <string name="quit">退出</string>
+    <string name="close">关闭</string>
+    <string name="okay">确定</string>
+    <string name="cancel">取消</string>
+    <string name="draft">草稿</string>
+    <string name="discard">丢弃</string>
+    <string name="transmit">发送</string>
+    <string name="enable">启用</string>
+    <string name="disable">禁用</string>
+
+    <!-- 呼号和消息 -->
+    <string name="call_sign">呼号</string>
+    <string name="call_hint">在此输入您的呼号</string>
+    <string name="compose">撰写</string>
+    <string name="compose_message">撰写消息</string>
+    <string name="message_hint">在此输入消息</string>
+
+    <!-- Ping / 信标 -->
+    <string name="ping">Ping</string>
+    <string name="beacon_started">信标已启动，每60秒发送一次</string>
+    <string name="beacon_stopped">信标已停止</string>
+
+    <!-- 设置 -->
+    <string name="sample_rate">采样率</string>
+    <string name="rate_8000">8 kHz</string>
+    <string name="rate_16000">16 kHz</string>
+    <string name="rate_32000">32 kHz</string>
+    <string name="rate_44100">44.1 kHz</string>
+    <string name="rate_48000">48 kHz</string>
+
+    <string name="channel_select">通道选择</string>
+    <string name="channel_default">默认</string>
+    <string name="channel_first">第一</string>
+    <string name="channel_second">第二</string>
+    <string name="channel_summation">求和</string>
+    <string name="channel_analytic">解析</string>
+
+    <string name="audio_source">音频源</string>
+    <string name="source_default">默认</string>
+    <string name="source_microphone">麦克风</string>
+    <string name="source_camcorder">摄像机</string>
+    <string name="source_voice_recognition">语音识别</string>
+    <string name="source_unprocessed">未处理</string>
+
+    <string name="leading_noise">前导噪声</string>
+    <string name="quarter_second">0.25秒</string>
+    <string name="half_second">0.5秒</string>
+    <string name="one_second">1秒</string>
+    <string name="two_seconds">2秒</string>
+    <string name="four_seconds">4秒</string>
+    <string name="eight_seconds">8秒</string>
+
+    <string name="fancy_header">花式报头</string>
+    <string name="carrier_frequency">载波频率</string>
+
+    <string name="repeater_mode">转发模式</string>
+    <string name="delay">延迟</string>
+    <string name="no_delay">无延迟</string>
+    <string name="debounce">去抖动</string>
+    <string name="allow_bouncing">允许弹跳</string>
+    <string name="quarter_minute">15秒</string>
+    <string name="half_minute">30秒</string>
+    <string name="one_minute">1分钟</string>
+    <string name="two_minutes">2分钟</string>
+
+    <string name="night_mode">夜间模式</string>
+    <string name="enable_ultrasonic">启用超声波</string>
+    <string name="enable_ultrasonic_prompt">您确定要启用超声波频率传输吗？\n\n警告：\n较高的采样率（44.1和48 kHz）可使载波频率超过16 kHz用于超声波传输。长时间暴露在高频声音中可能会损害您的听力，即使您听不到它们。</string>
+
+    <!-- 音频/解码器状态 -->
+    <string name="audio_init_failed">音频初始化失败。请尝试其他设置。强制退出并重新启动可能也有帮助。</string>
+    <string name="audio_setup_failed">音频设置失败。请尝试其他设置。</string>
+    <string name="audio_permission_denied">麦克风权限被拒绝。请检查权限。</string>
+    <string name="audio_recording_error">录音失败。请检查是否被阻止访问。如有必要，重启设备以恢复访问。</string>
+    <string name="listening">正在监听</string>
+    <string name="transmitting">正在发送</string>
+    <string name="ignoring">正在忽略</string>
+    <string name="heap_error">内存不足</string>
+    <string name="decoding_failed">解码失败</string>
+    <string name="payload_unknown">未知负载</string>
+
+    <string name="spectrum_analyzer">频谱分析仪</string>
+    <string name="spectrum_description">音频信号频谱</string>
+    <string name="spectrogram_description">音频信号频谱图</string>
+
+    <!-- 消息标题 -->
+    <string name="title_line">%1$s - %2$s - %3$s</string>
+    <string name="title_message">%1$s - %2$s - %3$s:\n%4$s</string>
+    <string name="from_status">来自 %1$s - 模式 %2$d - CFO %3$.2f Hz</string>
+
+    <string name="received">已接收</string>
+    <string name="transmitted">已发送</string>
+    <string name="repeated">已重复</string>
+    <string name="preamble_fail">前导码失败</string>
+    <string name="preamble_nope">模式 %1$d 不受支持</string>
+    <string name="preamble_ping">收到Ping</string>
+    <string name="sent_ping">已发送Ping</string>
+
+    <!-- 字节容量和位翻转的复数形式 -->
+    <plurals name="strong_bytes_left">
+        <item quantity="one">强力模式剩余 %d 字节</item>
+        <item quantity="other">强力模式剩余 %d 字节</item>
+    </plurals>
+    <plurals name="medium_bytes_left">
+        <item quantity="one">中等模式剩余 %d 字节</item>
+        <item quantity="other">中等模式剩余 %d 字节</item>
+    </plurals>
+    <plurals name="normal_bytes_left">
+        <item quantity="one">普通模式剩余 %d 字节</item>
+        <item quantity="other">普通模式剩余 %d 字节</item>
+    </plurals>
+    <plurals name="over_capacity">
+        <item quantity="one">超出容量 %d 字节</item>
+        <item quantity="other">超出容量 %d 字节</item>
+    </plurals>
+    <plurals name="bits_flipped">
+        <item quantity="one">已纠正 %d 位翻转</item>
+        <item quantity="other">已纠正 %d 位翻转</item>
+    </plurals>
+
+    <!-- 密码和加密 -->
+    <string name="password">密码</string>
+    <string name="password_dialog_title">设置密码</string>
+    <string name="generate_random_password">生成随机密码</string>
+    <string name="password_empty_error">密码不能为空</string>
+    <string name="password_length_error">密码UTF-8字节长度必须在8到256之间</string>
+    <string name="password_updated">密码已更新</string>
+    <string name="password_length_hint">密码必须是UTF-8编码，长度8~256字节</string>
+
+    <string name="encrypt_message">加密消息</string>
+    <string name="encryption_disabled_no_password">请先设置密码以启用加密</string>
+    <string name="encryption_failed">加密失败</string>
+    <string name="encrypted_message_too_long">加密后消息过长，请缩短内容</string>
+    <string name="transmitted_encrypted">已加密发送</string>
+    <string name="received_decrypted">已解密接收</string>
+
+    <!-- 位置功能 -->
+    <string name="location_button">发送位置</string>
+    <string name="location_permission_denied">位置权限被拒绝</string>
+    <string name="cannot_parse_location">无法解析位置</string>
+    <string name="invalid_location_format">位置格式无效</string>
+    <string name="location_prefix">[LOC]</string>
+    <string name="location_format">geo:%.6f,%.6f</string>
+    <string name="open_map">打开地图</string>
+    <string name="location_acquired">已获取位置</string>
+    <string name="location_failed">获取位置失败。请检查GPS或网络。</string>
+
+    <!-- 关于和隐私 -->
+    <string name="privacy_policy">隐私政策</string>
+    <string name="privacy_policy_text">为了解码COFDMTV编码的文本消息，Rattlegram plus需要访问麦克风。\n麦克风权限被视为敏感权限，您有权了解Rattlegram plus如何使用该权限：\n从麦克风记录的数据仅用于馈送COFDMTV解码器和频谱分析仪，以可视化其频率内容。\nRattlegram plus在易失性存储器中使用非常小的临时缓冲区，并不断用麦克风的新数据覆盖该缓冲区。\n从COFDMTV解码器得到的文本消息是唯一存储在设备持久存储中的数据。</string>
+    <string name="about">关于 Rattlegram plus</string>
+    <string name="about_text">Rattlegram plus %1$s\n版权所有 2026 BI3BJU\n\n请阅读本页底部的免责声明。\n\nRattlegram plus将短文本消息作为COFDMTV编码音频发送，并基于开源软件：\n\n通过音频，大约一秒钟内即可收发最多170字节的UTF-8文本消息！：\nhttps://github.com/aicodix/rattlegram\nBSD Zero Clause License\n\nOFDM调制解调器实现和规范：\nhttps://github.com/aicodix/modem\nBSD Zero Clause License\n\nPolar列表和有序统计解码：\nhttps://github.com/aicodix/code\nBSD Zero Clause License\n\n数字信号处理：\nhttps://github.com/aicodix/dsp\nBSD Zero Clause License\n\n花式报头字体：\nhttp://terminus-font.sourceforge.net\nSIL Open Font License\n\n免责声明：\n本软件按“原样”提供，作者不承担任何明示或暗示的保证，包括适销性和适用性的暗示保证。在任何情况下，作者均不对任何特殊的、直接的、间接的或后果性的损害，或因使用、数据或利润损失而导致的任何损害负责，无论是合同、疏忽或其他侵权行为，均与使用或性能有关。</string>
+
+    <string name="base37_characters">(空格, 0–9, A-Z)</string>
+
+    <!-- 额外复数形式（如果使用） -->
+    <plurals name="bytes_left">
+        <item quantity="one">剩余 %d 字节</item>
+        <item quantity="other">剩余 %d 字节</item>
+    </plurals>
+    <plurals name="over_capacity_neg">
+        <item quantity="one">超出容量 %d 字节</item>
+        <item quantity="other">超出容量 %d 字节</item>
+    </plurals>
+</resources>
