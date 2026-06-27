@@ -5,7 +5,11 @@ Rattlegram Plus
 [![Platform](https://img.shields.io/badge/Platform-Android-green)](https://www.android.com/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/BI3BJU/Text-Encryption-Tool-Java)]
 
+## Screenshots (截图)
 
+| 主界面 (Main) | 
+| :---: |
+| ![主界面](./main.jpg) | 
 
 Rattlegram Plus 是一款利用音频调制/解调实现短距离文本通信的 Android 应用。它能将文本信息编码为可听或超声波音频信号，并通过麦克风接收解码，无需 Wi‑Fi、蓝牙或蜂窝网络即可实现点对点消息传递。
 
@@ -32,11 +36,7 @@ Rattlegram Plus 是一款利用音频调制/解调实现短距离文本通信的
 
 🗺️ 地图集成 – 点击接收到的位置消息，可在 All‑In‑One Offline Maps（或系统选择器）中打开。
 
-截图
 
-
-主聊天界面
-https://main.jpg
 工作原理
 应用使用原生 C++ 库（librattlegram.so）进行 FSK 调制解调。文本消息被封装成音频帧，通过扬声器播放，麦克风接收后由解码器同步并提取原始数据。
 
@@ -199,11 +199,7 @@ Features
 
 🗺️ Map integration – tap a received location message to open in All‑In‑One Offline Maps (or system picker).
 
-Screenshots
 
-
-Main Chat
-https://main.jpg
 How It Works
 The app uses a native C++ library (librattlegram.so) to perform FSK‑based modulation and demodulation. Text messages are converted to audio frames, played through the speaker, and received via the microphone. The decoder synchronises to the incoming signal, extracts the payload, and displays it.
 
