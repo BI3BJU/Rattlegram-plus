@@ -1,4 +1,5 @@
-Rattlegram Plus
+# Rattlegram Plus
+
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Kotlin](https://img.shields.io/badge/Kotlin-1.9+-purple)](https://kotlinlang.org/)
 [![API](https://img.shields.io/badge/API-21%2B-brightgreen)](https://developer.android.com/)
